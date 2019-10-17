@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ev1527_transmitter_module
+D EV1527 siustuvo modulis
+K EV1527
+$ENDCMP
+#
+#End Doc Library

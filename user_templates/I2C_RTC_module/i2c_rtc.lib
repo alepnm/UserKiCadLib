@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# i2c_rtc_module
+#
+DEF i2c_rtc_module M 0 40 N Y 1 F N
+F0 "M" -250 550 50 H V C CNN
+F1 "i2c_rtc_module" -50 -500 50 H V C CNN
+F2 "i2c_rtc_modulis:i2c_rtc_module_horizontal" 450 -600 50 H I C CNN
+F3 "" 0 -700 50 H I C CNN
+DRAW
+T 0 -200 400 50 0 0 0 P1 Normal 0 C C
+T 0 200 400 50 0 0 0 P2 Normal 0 C C
+S -350 500 350 -450 0 1 0 N
+P 2 0 1 0 -100 500 -100 -450 N
+P 2 0 1 0 100 500 100 -450 N
+X BAT 1 -450 250 100 R 50 50 1 1 O
+X VCC 10 450 150 100 L 50 50 1 1 W
+X SDA 11 450 50 100 L 50 50 1 1 B
+X SCL 12 450 -50 100 L 50 50 1 1 I C
+X DS 13 450 -150 100 L 50 50 1 1 B
+X GND 2 -450 150 100 R 50 50 1 1 P
+X VCC 3 -450 50 100 R 50 50 1 1 W
+X SDA 4 -450 -50 100 R 50 50 1 1 B
+X SCL 6 -450 -150 100 R 50 50 1 1 I C
+X DS 7 -450 -250 100 R 50 50 1 1 B
+X SQ 8 -450 -350 100 R 50 50 1 1 I
+X GND 9 450 250 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# i2c_rtc_module_vertical
+#
+DEF i2c_rtc_module_vertical M 0 40 N Y 1 F N
+F0 "M" -150 450 50 H V C CNN
+F1 "i2c_rtc_module_vertical" 250 -450 50 H V C CNN
+F2 "i2c_rtc_modulis:i2c_rtc_module_vertical" 550 -550 50 H I C CNN
+F3 "" 150 50 50 H I C CNN
+DRAW
+S -200 400 150 -400 1 1 0 N
+X BAT 1 -300 300 100 R 50 50 1 1 O
+X GND 2 -300 200 100 R 50 50 1 1 P
+X VCC 3 -300 100 100 R 50 50 1 1 W
+X SDA 4 -300 0 100 R 50 50 1 1 B
+X SCL 5 -300 -100 100 R 50 50 1 1 I C
+X DS 6 -300 -200 100 R 50 50 1 1 B
+X SQ 7 -300 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

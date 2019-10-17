@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP i2c_rtc_module
+D Kinietiskas I2C-RTC modulis
+K I2C, RTC
+$ENDCMP
+#
+#End Doc Library
