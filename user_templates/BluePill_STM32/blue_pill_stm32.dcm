@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP stm32f1_module
+D STM32F101 modulis, Kinija
+K STM32
+$ENDCMP
+#
+#End Doc Library

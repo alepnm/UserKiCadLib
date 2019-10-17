@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP tb387_uart_expander
+D TB387 UART porto ekspanderis
+K UART, TB387
+$ENDCMP
+#
+#End Doc Library
