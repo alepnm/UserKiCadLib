@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bldc_stm32-rescue)(type Legacy)(uri E:/Projects/sks_bldc/hardware/bldc_stm32-rescue.lib)(options "")(descr ""))
+)
